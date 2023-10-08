@@ -1,0 +1,65 @@
+nav.CSS1{
+	width: 100%;
+	height: 70px;
+	background-color: gainsboro;
+	padding-top: 5px;
+	box-sizing: border-box;<!--paddingの余白でバーの大き
+	さが変わらないようにする-->
+}
+ul.CSS1{
+	display: flex;
+}
+li.CSS1{
+	list-style: none;<!--liタグの箇条書き点消去-->
+}
+a.CSS1{
+	display: block;
+	text-decoration: none;<!--リンク下線消去-->
+	color: white;
+	margin-right: 35px;
+
+}
+a.CSS1:hover{
+	color: #ADFF2F;
+}/*タグ:疑似クラス名で疑似クラスの指定、hoverはカーソルを合わせたときに発光
+することを指定*/
+
+/*CSSコメントアウト*/
+/*「要素.クラス名」でクラスを指定*/
+
+/*
+nav.CSS2{
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+画面上部にメニューバーを固定*/
+details.CSS2{
+	position: fixed;
+	width: 15%;
+	top: 0;
+	left: 0;
+}
+
+details[open].CSS2{
+	position: fixed;
+	width: 40%;
+	top: 0;
+	left: 0;
+}
+
+details summary.CSS2{
+	background: #000000;
+	color: white;
+}
+
+ol.CSS2{
+			font-size: 15px;
+			background-color: #F0FFFF;
+			border: 2px solid #F3F3F3;
+			padding: 14px 14px 14px 32px;
+		 }
+
+a.CSS2:hover{
+	color: #F4A460;
+}
